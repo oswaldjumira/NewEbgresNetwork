@@ -1,0 +1,15 @@
+These are some of the statistics we need to collect from the simulations:
+
+1. Lifetime: the time slot in which the first node becomes isolated (dead). (there are many methods to calculate lifetime)
+2. Total energy dissipated in the system: the total energy consumed by all nodes during the execution of the algorithm. (we need the energy used and energy remaining)
+3. Average energy consumed per packet, namely the total energy dissipated in the system divided by the total network throughput (capacity);
+4. The total network throughput (capacity);
+5. The threshold-related throughput - The total number of delivered packets until the first time when the loss ratio exceeds some given threshold
+6. Frequency of receiving data packets at the end nodes- In evaluating performance, we need to use a program that  records how often data is being received through the gateway  nodes.
+7. Average delay per packet (latency) - The average time a packet takes from a node in the sensing  state to the gateway (destination). The average delay from the time instant when a packet is generated at the source node to the time instant when it is delivered to the destination.
+8. Maximum network capacity - The total number of packets successfully routed until no more packets can be routed.
+9. Total packet throughput - The total number of packets successfully received at the destination nodes. (packetloss calculation)
+10. Average and  standard  deviation of nodes’ lifetime
+11. Expiration time and expiration sequence - The time when a node exhausts its battery capacity. The sequence of nodes sorted in ascending order of the
+expiration times. The expiration sequence provides a useful indicator of how each algorithm affects the lifetime of the individual nodes, and the entire network.
+12. Coverage degree - number of nodes divided by the area of coverage.

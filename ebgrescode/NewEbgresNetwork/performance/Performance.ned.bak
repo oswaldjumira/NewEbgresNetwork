@@ -1,0 +1,27 @@
+package newebgresnetwork.performance;
+
+simple Performance
+{
+    parameters:
+        @class(Performance);
+	bool debug; // debug switch
+	string simulationOutputDirectory; //Specifies the output directory of the current simulation
+	runOutputDirectory			: string; //Specifies the output directory of the current simulation run
+	printNetworkHopsPercentage	: bool; //Print the percentage nodes are reachable after a certain amount of hops
+	pMessagesSentReceived		: bool; //Print the messages sent and the messages received
+	pMessagesStartEndTime		: bool; //Print the message start and end time
+	pBitRateDemandedHandled		: bool; //Print the bitrate demanded and handled
+	simulationTimeConnectivity	: bool; //Calculate the simulation time connectivity at discrete points throughout the simulation.
+	
+	//File Write Parameters
+	writeCommunicationLinkToFile : bool; //Write Communication Link Information to file
+	
+	//Recording Parameters
+	recordCommunicationLink		: bool; //Record Communication Link Information
+	
+	//Simulation Parameters
+	runNumber					: numeric const; //Run number of simulation
+	
+	//XML Parameters
+	xmlParameters				: xml; //XML parameters file
+}

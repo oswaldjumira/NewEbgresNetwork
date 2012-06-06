@@ -1,0 +1,97 @@
+version 2
+run Small-0-20120409-17:20:15-10192
+attr configname Small
+attr datetime 20120409-17:20:15
+attr experiment Small
+attr inifile /home/hybridbiohazard/Personal/Workspace/NewEbgresNetwork/omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network newebgresnetwork
+attr processid 10192
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar newebgresnetwork.node[0].batteryStats 	nominal 	1187988120
+attr unit  mW-s
+scalar newebgresnetwork.node[0].batteryStats 	total 	2023.4757502079
+attr unit  mW-s
+scalar newebgresnetwork.node[0].batteryStats 	lifetime 	-1
+attr unit  s
+scalar newebgresnetwork.node[0].batteryStats 	"Mean power consumption" 	62.040000011129
+attr unit  mW
+scalar newebgresnetwork.node[1].batteryStats 	nominal 	1187988120
+attr unit  mW-s
+scalar newebgresnetwork.node[1].batteryStats 	total 	2023.4114029408
+attr unit  mW-s
+scalar newebgresnetwork.node[1].batteryStats 	lifetime 	-1
+attr unit  s
+scalar newebgresnetwork.node[1].batteryStats 	"Mean power consumption" 	62.038027116493
+attr unit  mW
+scalar newebgresnetwork.node[2].batteryStats 	nominal 	1187988120
+attr unit  mW-s
+scalar newebgresnetwork.node[2].batteryStats 	total 	2023.4757502079
+attr unit  mW-s
+scalar newebgresnetwork.node[2].batteryStats 	lifetime 	-1
+attr unit  s
+scalar newebgresnetwork.node[2].batteryStats 	"Mean power consumption" 	62.040000011129
+attr unit  mW
+scalar newebgresnetwork.node[3].batteryStats 	nominal 	1187988120
+attr unit  mW-s
+scalar newebgresnetwork.node[3].batteryStats 	total 	2023.4757502079
+attr unit  mW-s
+scalar newebgresnetwork.node[3].batteryStats 	lifetime 	-1
+attr unit  s
+scalar newebgresnetwork.node[3].batteryStats 	"Mean power consumption" 	62.040000011129
+attr unit  mW
+scalar newebgresnetwork.node[4].batteryStats 	nominal 	1187988120
+attr unit  mW-s
+scalar newebgresnetwork.node[4].batteryStats 	total 	2023.4727194309
+attr unit  mW-s
+scalar newebgresnetwork.node[4].batteryStats 	lifetime 	-1
+attr unit  s
+scalar newebgresnetwork.node[4].batteryStats 	"Mean power consumption" 	62.039907087157
+attr unit  mW
+scalar newebgresnetwork.node[5].batteryStats 	nominal 	1187988120
+attr unit  mW-s
+scalar newebgresnetwork.node[5].batteryStats 	total 	2023.4757502079
+attr unit  mW-s
+scalar newebgresnetwork.node[5].batteryStats 	lifetime 	-1
+attr unit  s
+scalar newebgresnetwork.node[5].batteryStats 	"Mean power consumption" 	62.040000011129
+attr unit  mW
+scalar newebgresnetwork.node[6].batteryStats 	nominal 	1187988120
+attr unit  mW-s
+scalar newebgresnetwork.node[6].batteryStats 	total 	2023.4757502079
+attr unit  mW-s
+scalar newebgresnetwork.node[6].batteryStats 	lifetime 	-1
+attr unit  s
+scalar newebgresnetwork.node[6].batteryStats 	"Mean power consumption" 	62.040000011129
+attr unit  mW
+scalar newebgresnetwork.node[7].batteryStats 	nominal 	1187988120
+attr unit  mW-s
+scalar newebgresnetwork.node[7].batteryStats 	total 	2023.4288117886
+attr unit  mW-s
+scalar newebgresnetwork.node[7].batteryStats 	lifetime 	-1
+attr unit  s
+scalar newebgresnetwork.node[7].batteryStats 	"Mean power consumption" 	62.038560873775
+attr unit  mW
+scalar newebgresnetwork.node[8].batteryStats 	nominal 	1187988120
+attr unit  mW-s
+scalar newebgresnetwork.node[8].batteryStats 	total 	2023.4318420887
+attr unit  mW-s
+scalar newebgresnetwork.node[8].batteryStats 	lifetime 	-1
+attr unit  s
+scalar newebgresnetwork.node[8].batteryStats 	"Mean power consumption" 	62.038653783127
+attr unit  mW
+scalar newebgresnetwork.node[9].batteryStats 	nominal 	1187988120
+attr unit  mW-s
+scalar newebgresnetwork.node[9].batteryStats 	total 	2023.4757502079
+attr unit  mW-s
+scalar newebgresnetwork.node[9].batteryStats 	lifetime 	-1
+attr unit  s
+scalar newebgresnetwork.node[9].batteryStats 	"Mean power consumption" 	62.040000011129
+attr unit  mW

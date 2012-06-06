@@ -1,0 +1,18 @@
+# Makefile for own simulations on linux or MAC OS with shared libraries
+
+#USER = hybrid4j
+MOBFW = $(MOBILITY_PATH)
+MOD = $(WORKDIR)/CHGRP/ModifiedNic
+NET = $(WORKDIR)/CHGRP/NetworkLayer
+NETWORK = ../NetworkLayer
+DATASTRUCTURES = ../DataStructures
+MESSAGES = ../Messages
+PERFORMANCE = ../PerformanceModule
+UNITTESTS = ../testCode
+
+all:
+	opp_makemake -n -f -x -w -I$(MOBFW)/core/include -I$(MOBFW)/contrib/include -I$(DATASTRUCTURES) -I$(MESSAGES) -I$(NETWORK) -I$(UNITTESTS) -I$(PERFORMANCE) \
+	-L$(MOBFW)/core/lib -L$(MOBFW)/contrib/lib  -L$(DATASTRUCTURES) -L$(MESSAGES) -L$(NETWORK) -L$(UNITTESTS) -L$(PERFORMANCE) \
+	-lmfcore -lmfcontrib
+
+# DO NOT DELETE THIS LINE -- make depend depends on it.

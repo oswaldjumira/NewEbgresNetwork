@@ -1,0 +1,10 @@
+./performance/Performance.ned
+./host/NodeInformation.ned
+./physical_layer/EbgresPhysicalLayer.ned
+./BaseNode.ned
+./network_interface_card/EbgresNic.ned
+./NewEbgresNetwLayer.ned
+./configuration/Configuration.ned
+./package.ned
+./ebgresApplLayer.ned
+./NewEbgresNetwork.ned
